@@ -2,16 +2,27 @@ WCG
 ===
 
 General Description:
-to be added!
+This is a Python implementation for analyzing large social graphs such as Facebook. It uses networkx Python library for building and analyzing the structure of Facebook friendship graph.
+
+It can read the structure of an online social network in csv format and then convert that to a graph structure representation for further analysis. This project in particular has the implemntation for:
+
+- building graphs
+- drawing graphs by using matplot library
+- computing bridges and communities in social graphs
+- running BFS on social graphs
+- running random walk on social graphs
+- computing similarity between nodes neighborhood using minhash
+- running several information spreading algorithms in social graphs
+- and other features not listed here!
 
 Code Input:
-to be added.
+A csv file representing the adjacency list of an online social network.
 
 Code Output:
-to be added.
+Detail connectivity and other properties of social graphs.
 
 Project Goal:
-to be added.
+Analyzing structure of Facebook friendship graph.
 
 Project Period:
 January 2011 - May 2012.
